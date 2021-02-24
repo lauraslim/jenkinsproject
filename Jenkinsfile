@@ -51,7 +51,7 @@ pipeline {
 
   }
   environment {
-    imageName = 'allebb/jenkkube-demo'
+    imageName = 'lauradocker84/jenkins-project'
     registryCredentialSet = 'dockerhub'
     registryUri = ''
     dockerInstance = ''
